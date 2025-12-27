@@ -63,7 +63,7 @@ def main_menu(stdscr, vault):
     idx = 0
     while True:
         stdscr.clear()
-        stdscr.addstr(1, 2, "=== VAULT MASTER MENU ===", curses.A_BOLD)
+        stdscr.addstr(1, 2, "=== Bitlock PY ===", curses.A_BOLD)
         for i, opt in enumerate(options):
             style = curses.A_REVERSE if i == idx else curses.A_NORMAL
             stdscr.addstr(3 + i, 4, f"{i+1}. {opt}", style)
