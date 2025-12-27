@@ -80,8 +80,6 @@ Termination without exit will not saved the changes
 
 ---
 
----
-
 ## 🧠 Vault Data Format (Internal)
 
 Passwords are internally stored as:
